@@ -1,0 +1,79 @@
+SECTION 1:
+
+B
+D
+D
+C
+C
+
+SECTION 2:
+
+1
+Bug: A specific issue in the code causing incorrect or unintended behavior, typically found during testing or use.
+Defect: Any deviation from the specified requirements or expected behavior, which can be found at any stage of development, from requirements gathering to coding and beyond.
+
+2
+
+The Page Object Model (POM) is a design pattern in test automation that promotes a clear separation between the test code and the code that interacts with the web application's user interface (UI)
+
+uses:
+Improves Readability and Maintainability
+Reusability
+Ease of Maintenance
+Modularity
+Improved Collaboration
+
+3
+A flaky test is a test that produces inconsistent results: it may pass or fail intermittently without any changes to the code or environment. Flaky tests can undermine the reliability of the test suite and cause confusion, as they make it difficult to distinguish between genuine failures and spurious ones.
+
+handling:
+Identify and Isolate:
+Stabilize the Test:
+Explicit Waits:
+Refactor the Test:
+Remove Dependencies: 
+Modularize and Simplify: 
+Use Better Practices:
+Continuous Integration (CI): 
+Flagging and Reporting:
+
+4
+i)Repetitiveness:
+
+High: Test cases that need to be executed frequently, such as regression tests, smoke tests, and sanity tests.
+Medium: Tests that are run periodically or after certain changes.
+Low: One-off tests or tests that are rarely run.
+
+ii)Business Criticality:
+
+High: Test cases that cover critical business functions, core application features, and high-risk areas.
+Medium: Tests covering important but non-critical features.
+Low: Tests for features that have minimal impact on the business.
+
+iii)Complexity and Effort:
+
+Low: Test cases that are straightforward and easy to automate.
+Medium: Tests that require moderate effort to automate.
+High: Complex test cases that require significant effort and resources to automate.
+
+iv)Stability:
+
+High: Test cases in areas of the application that are stable and unlikely to change frequently.
+Medium: Tests in areas that undergo moderate changes.
+Low: Tests in highly volatile areas of the application.
+
+v)Return on Investment (ROI):
+
+High: Tests that provide a significant ROI in terms of time saved and reduced manual effort.
+Medium: Tests with a moderate ROI.
+Low: Tests with low ROI.
+
+v)Data-Driven:
+
+High: Tests that involve multiple sets of data, where automation can significantly reduce the effort.
+Low: Tests with static data or minimal data variation.
+
+vi)Regression Potential:
+
+High: Tests that are likely to catch regressions.
+Low: Tests that are less likely to find new issues in future releases.
